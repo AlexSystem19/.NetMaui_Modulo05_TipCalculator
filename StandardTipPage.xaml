@@ -6,9 +6,9 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="bgColor">#C0C0C0</Color>
-            <Color x:Key="fgColor">#0000AD</Color>
+            <Color x:Key="fgColor">Yellow</Color>
             <x:Double x:Key="fontSize">22</x:Double>
-            <Color x:Key="PanelBackgroundColor">Blue</Color>
+            <Color x:Key="PanelBackgroundColor">Green</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
