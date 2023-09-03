@@ -6,8 +6,8 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="bgColor">#C0C0C0</Color>
-            <Color x:Key="fgColor">Yellow</Color>
-            <Color x:Key="PanelBackgroundColor">Black</Color>
+            <Color x:Key="fgColor">Black</Color>
+            <Color x:Key="PanelBackgroundColor">Yellow</Color>
             <x:Double x:Key="fontSize">22</x:Double>                                            <!--infoLabelStyle-->
             <Style x:Key="infoLabelStyle" TargetType="Label">                                   <!--infoLabelStyle-->
                 <Setter Property="FontSize" Value="{StaticResource fontSize}" />                <!--infoLabelStyle-->
@@ -17,7 +17,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid x:Name ="LayoutRoot" BackgroundColor="{StaticResource PanelBackgroundColor}" Padding="10"
+    <Grid x:Name ="LayoutRoot" BackgroundColor="{DynamicResource PanelBackgroundColor}" Padding="10"
           ColumnDefinitions="*, 3*"
           RowDefinitions="Auto, Auto, Auto, Auto, *">
 
